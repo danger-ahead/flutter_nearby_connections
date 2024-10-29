@@ -27,6 +27,8 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 34
 
+    namespace "com.dangerahead.flutter_nearby_connections"
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
